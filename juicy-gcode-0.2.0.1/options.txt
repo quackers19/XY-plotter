@@ -1,0 +1,7 @@
+gcode
+{
+   begin = "start"
+   end = "penu"
+   toolon =  "pend"
+   tooloff = "penu"
+}

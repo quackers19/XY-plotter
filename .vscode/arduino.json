@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:uno",
+    "sketch": "Plotter_code\\Plotter_code.ino",
+    "port": "COM5"
+}
