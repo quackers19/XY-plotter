@@ -40,5 +40,21 @@ def gcode():
     
     print('finished')
 
+def cmdlist():
+    # 🔽EDIT THIS LINE TO CHANGE GCODE FILE🔽
+    code = open(r"C:\\Users\\Liam Tighe\\OneDrive - St Peters Lutheran College\\Documents\\XY plotter\\juicy-gcode-0.2.0.1\\test.gcode", 'r')
+    raw = []
+    cmdlist = []
+
+    for line in code:
+        raw.append(line)
+    for cmd in raw:
+        try:
+            cmdlist.append(cmd.rstrip("\n"))
+        except:
+            cmdlist.append(cmd)
+    code.close()
+    return cmdlist
+
 if __name__ == "__main__":
     gcode()

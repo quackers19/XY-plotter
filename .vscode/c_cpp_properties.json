@@ -7,8 +7,7 @@
             "compilerArgs": [],
             "intelliSenseMode": "windows-msvc-x64",
             "includePath": [
-                "${workspaceFolder}/**",
-                "C:\\**"
+                "${workspaceFolder}/**"
             ],
             "forcedInclude": [],
             "cStandard": "c17",
