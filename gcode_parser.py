@@ -2,7 +2,7 @@ import serial
 import time
 
 
-def main():
+def gcode():
     arduino = serial.Serial(port='COM5', baudrate=9600, timeout=.2)
     # 🔽EDIT THIS LINE TO CHANGE GCODE FILE🔽
     code = open(r"C:\\Users\\Liam Tighe\\OneDrive - St Peters Lutheran College\\Documents\\XY plotter\\juicy-gcode-0.2.0.1\\test.gcode", 'r')
@@ -41,4 +41,4 @@ def main():
     print('finished')
 
 if __name__ == "__main__":
-    main()
+    gcode()
