@@ -42,7 +42,7 @@ def gcode():
 
 def cmdlist():
     # 🔽EDIT THIS LINE TO CHANGE GCODE FILE🔽
-    code = open(r"C:\\Users\\Liam Tighe\\OneDrive - St Peters Lutheran College\\Documents\\XY plotter\\juicy-gcode-0.2.0.1\\test.gcode", 'r')
+    code = open(r"C:\\Users\\Liam Tighe\\OneDrive - St Peters Lutheran College\\Documents\\XY plotter\\juicy-gcode-0.2.0.1\\output.gcode", 'r')
     raw = []
     cmdlist = []
 
