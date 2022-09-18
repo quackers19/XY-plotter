@@ -33,5 +33,3 @@ for cmd in cmdlist:
 
 turtle.done()
 
-#print calculated output by arduino
-turtle.color("red")

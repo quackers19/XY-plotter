@@ -1,3 +1,0 @@
-COMMAND TO OPTIMISE SVG
-
-vpype read testfile.svg linemerge -t 1mm linesort write --page-size a4 --center output.svg
