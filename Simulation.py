@@ -7,6 +7,7 @@ turtle.speed(0)
 turtle.hideturtle()
 turtle.penup()
 cmdlist = gcode_parser.cmdlist()
+print(cmdlist)
 
 for cmd in cmdlist:
     if cmd[3] == "u":
@@ -19,4 +20,3 @@ for cmd in cmdlist:
         print("x")
     else:
         continue
-time.sleep(5)
