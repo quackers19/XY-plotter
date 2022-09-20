@@ -20,7 +20,7 @@ int const miny = 0;
 int const maxy = 297;
 
 //motor x and y cords
-int const m1x = 83;
+int const m1x = -83;
 int const m1y = -115;
 int const m2x = 300;
 int const m2y = -115;
