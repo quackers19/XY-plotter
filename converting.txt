@@ -1,8 +1,4 @@
-COMMAND TO OPTIMISE SVG do this first
-
-vpype read testfile.svg linemerge -t 1mm linesort write --page-size a4 --center output.svg
-
-Then convert with Juicy-gcode.exe
+Convert with Juicy-gcode.exe
  use this cmd modify to needs 
 
  .\juicy-gcode ../output.svg -f options.txt -o output.gcode

@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="tiny" height="29.7cm" version="1.2" viewBox="0 0 793.7007874015749 1122.5196850393702" width="21.0cm">
-  <metadata>
-    <rdf:RDF>
-      <cc:Work>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:source>vpype read testfile.svg linemerge -t 1mm linesort write --page-size a4 --center output.svg
-</dc:source>
-        <dc:date>2022-09-18T12:42:45.870300</dc:date>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs/>
-  <g fill="none" id="layer1" inkscape:groupmode="layer" inkscape:label="1" stroke="#231f20" stroke-width="1.0" style="display:inline">
-    <line x1="316.2154" x2="316.2154" y1="392.9548" y2="737.3148"/>
-    <line x1="477.4854" x2="477.4854" y1="652.1048" y2="385.2048"/>
-  </g>
-</svg>
+<?xml version="1.0" encoding="UTF-8"?><svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 274.24 307.34"><defs><style>.b{fill:none;stroke:#231f20;stroke-miterlimit:10;}</style></defs><rect class="b" x=".5" y=".5" width="273.24" height="306.34"/></svg>

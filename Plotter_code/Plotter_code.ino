@@ -8,7 +8,7 @@ AF_Stepper motor2(200, 2);
 
 Servo pen;
 
-int penpos = 60;
+int penpos;
 
 //mm per step
 double const step_distance = 0.16;
@@ -52,7 +52,7 @@ void setup() {
   pen.attach(10);
   pen.write(penpos);
   
-  delay(5000);
+  delay(3000);
   Serial.print("ready");
   delay(1000);
  
@@ -67,7 +67,7 @@ void loop() {
   Serial.print("next");
  }
  else if (cmd.endsWith("u")) {
-  penpos = 60;
+  penpos = 45;
   pen.write(penpos);
   delay(300);
   Serial.print("next");
