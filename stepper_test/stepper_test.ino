@@ -19,9 +19,11 @@ void setup() {
 }
 
 void loop() {
-motor1.onestep(FORWARD, DOUBLE);
-motor2.onestep(BACKWARD, DOUBLE);
-
-delay(100);
   
+  for (int i=0; i<100; i++) {
+    motor1.onestep(FORWARD, DOUBLE);
+    motor2.onestep(BACKWARD, DOUBLE);
+    delay(100);
+  }
+
 }

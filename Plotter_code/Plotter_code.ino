@@ -145,11 +145,11 @@ void loop() {
        steps_done_m2 += m2_line_step;
        for (int i = 0; i <= m1_line_step; i++) {
         if (steps_m1 < 0) {
-          motor1.onestep(BACKWARD, SINGLE);
+          motor1.onestep(FORWARD, SINGLE);
           delay(1);
         }
         else if (steps_m1 > 0) {
-          motor1.onestep(FORWARD, SINGLE);
+          motor1.onestep(BACKWARD, SINGLE);
           delay(1);
         }
         else {
@@ -173,11 +173,11 @@ void loop() {
        steps_done_m1 += m1_line_step;
        for (int i = 0; i <= m1_line_step; i++) {
         if (steps_m1 < 0) {
-          motor1.onestep(BACKWARD, SINGLE);
+          motor1.onestep(FORWARD, SINGLE);
           delay(1);
         }
         else if (steps_m1 > 0) {
-          motor1.onestep(FORWARD, SINGLE);
+          motor1.onestep(BACKWARD, SINGLE);
           delay(1);
         }
         else {
